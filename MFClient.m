@@ -346,9 +346,11 @@ OSStatus myKeychainCallback ( SecKeychainEvent keychainEvent,
 	}
 }
 
-
+/**
+ * NSAssert is commented so Macfusion doesn't crash on Mountain Lion.
+ */
 - (MFClientFS *)filesystemWithUUID:(NSString *)uuid {
-	NSAssert(uuid, @"uuid nil when requesting FS in MFClient");
+//	NSAssert(uuid, @"uuid nil when requesting FS in MFClient");
 	return [filesystemsDictionary objectForKey:uuid];
 }
 
