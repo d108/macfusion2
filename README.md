@@ -5,4 +5,5 @@ This is my fork of Macfusion2 intended to work on Mountain Lion using FUSE for O
 
 Binary needs testing.
 
-For now, there is a working version that I previously built at (http://www.danielzhang.info/drupal6/content/macfusion-agent-crashes-in-mountain-lion).
+For now, there is a working version that I previously built at 
+[Macfusion Agent Crashes in Mountain Lion](http://www.danielzhang.info/drupal6/content/macfusion-agent-crashes-in-mountain-lion).
